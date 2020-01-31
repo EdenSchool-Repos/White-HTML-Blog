@@ -6,6 +6,8 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+/* Nav */
+
 nav {
     background-color: #fff;
     overflow: hidden;
@@ -50,4 +52,28 @@ nav ul li {
     float: right;
     margin-right: 1em;
     margin-top: 8.9px;
+}
+
+/* Header */
+header {
+    padding: 3em 0 3em 0;
+    background-image: url("../img/blog/clean_code_bg.jpg");
+}
+
+header h1, header p {
+    color: #fff;
+    text-align: center;
+}
+
+header p {
+    color: #d2dae2;
+}
+
+header span {
+    font-weight: 900;
+}
+
+header h1 {
+    font-weight: 100;
+    font-size: 60px;
 }
