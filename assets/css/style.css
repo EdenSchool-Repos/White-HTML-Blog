@@ -7,7 +7,7 @@ body {
 }
 
 .bar {
-    border: 1px solid gray;
+    border: 1px solid #dcdde1;
 }
 
 /* Nav */
@@ -88,6 +88,13 @@ header h1 {
     width: 60%;
 }
 
+.left .bar {
+    margin-top: 2em;
+    margin-right: 1em;
+    float: right;
+    width: 78%;
+}
+
 .feed-1 {
     margin-top: 2em;
     display: inline-block;
@@ -134,10 +141,37 @@ header h1 {
     font-weight: bold;
 }
 
+.left .pages-choice {
+    display: inline-block;
+}
+
+.left .pages-choice .pages-choice-letter {
+    margin: 2em 0 2em 0;
+}
+
+.left .pages-choice .pages-choice-letter a {
+    color: gray;
+    text-decoration: none;
+    padding: 0.6em 1em 0.6em 1em;
+}
+
+.left .pages-choice .pages-choice-letter a.active {
+    border: 3px solid #333333;
+    color: #333333;
+    font-weight: bolder;
+}
+
+.left .pages-choice .white-width {
+    margin: 3em 0 3em 0;
+    width: 24%;
+    height: 10px;
+    float: left;
+}
+
 /* Feed 2 */
 .right {
     float: right;
-    width: 39%;
+    width: 40%;
 }
 
 .feed-2 .white-width {
@@ -148,7 +182,7 @@ header h1 {
 
 .feed-2 .anti-white-width {
     width: 35%;
-    height: 1000px;
+    height: 135em;
     float: right;
 }
 
@@ -205,4 +239,16 @@ header h1 {
 
 .popular-posts h1 span, .popular-tags h1 span, .about-blog h1 span {
     font-weight: bold;
+}
+
+/* Choix de Pages */
+.pages-choice {
+    width: 100%;
+}
+
+/* Footer */
+footer {
+    float: left;
+    background-color: #1C1C1C;
+    width: 100%;
 }
