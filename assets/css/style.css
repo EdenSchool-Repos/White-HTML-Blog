@@ -41,6 +41,7 @@ nav h1:nth-child(5) {
 nav h1 {
     display: inline-block;
     float: left;
+    letter-spacing: 14px;
 }
 
 nav ul {
@@ -301,8 +302,43 @@ footer .featured-posts .featured-posts-text p {
     font-weight: lighter;
     width: 100%;
     margin-left: 15px;
+    color: #7B7B7B;
 }
 
 footer .featured-posts .featured-posts-text span {
     font-weight: bold;
+}
+
+.about-us {
+    width: 23%;
+    float: left;
+}
+
+footer .about-us h2 {
+    display: inline-block;
+    color: #7B7B7B;
+    float: none;
+    width: 100%;
+}
+
+footer .about-us .about-us-text {
+    width: 100%;
+    float: left;
+    height: 90px;
+}
+
+footer .about-us .about-us-text p {
+    font-weight: 100;
+    width: 100%;
+    color: #7B7B7B;
+    line-height: 1.9em;
+}
+
+footer .about-us .about-us-icons {
+    border: 1px solid #7B7B7B;
+    padding: 0px 15px 0px 15px;
+    margin-right: 7px;
+    line-height: 50px;
+    color: #7B7B7B;
+    text-align: center;
 }
