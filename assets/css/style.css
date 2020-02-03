@@ -197,3 +197,11 @@ header h1 {
     width: 100%;
     font-size: 14px;
 }
+
+.popular-posts h1, .popular-tags h1, .about-blog h1 {
+    font-weight: lighter;
+}
+
+.popular-posts h1 span, .popular-tags h1 span, .about-blog h1 span {
+    font-weight: bold;
+}
