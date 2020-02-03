@@ -256,17 +256,15 @@ footer {
 }
 
 footer .white-width {
-    width: 15%;
+    width: 20%;
     height: 100px;
     float: left;
-    background-color: olive;
 }
 
 footer .white-width-right {
     width: 15%;
     height: 100px;
     float: right;
-    background-color: orchid;
 }
 
 .featured-posts {
@@ -324,7 +322,8 @@ footer .about-us h2 {
 footer .about-us .about-us-text {
     width: 100%;
     float: left;
-    height: 90px;
+    height: 90px;    
+    padding-right: 2em;
 }
 
 footer .about-us .about-us-text p {
@@ -341,4 +340,36 @@ footer .about-us .about-us-icons {
     line-height: 50px;
     color: #7B7B7B;
     text-align: center;
+}
+
+.contacts-us {
+    width: 23%;
+    float: left;
+}
+
+footer .contacts-us h2 {
+    display: inline-block;
+    color: #7B7B7B;
+    float: none;
+    width: 100%;
+}
+
+
+footer .contacts-us input {
+    background-color: #1C1C1C;
+    color: #272A30;
+    border: 1px solid #272A30;
+    padding: 1em;
+    width: 50%;
+}
+
+footer .contacts-us .contacts-message {
+    height: 87.32px;
+}
+
+footer .contacts-us button {
+    background-color: #1C1C1C;
+    color: #272A30;
+    border: 1px solid #272A30;
+    padding: 1em;
 }
