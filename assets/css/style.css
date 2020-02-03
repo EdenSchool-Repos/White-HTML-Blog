@@ -6,6 +6,10 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+.bar {
+    border: 1px solid gray;
+}
+
 /* Nav */
 
 nav {
@@ -76,4 +80,73 @@ header span {
 header h1 {
     font-weight: 100;
     font-size: 60px;
+}
+
+/* Feed 1 */
+.left {
+    float: left;
+    background-color: hotpink;
+    width: 60%;
+}
+
+.feed-1 {
+    margin-top: 2em;
+    display: inline-block;
+    width: 100%;
+    background-color: red;
+}
+
+.feed-1 .white-width {
+    width: 24%;
+    height: 10px;
+    float: left;
+    background-color: #fff;
+}
+
+.feed-1 .feed-image {
+    display: inline-block;
+    width: 45%;
+}
+
+.feed-1 .feed-image img {
+    margin-top: 2em;
+    width: 100%;
+}
+
+.feed-1 .feed-text {
+    display: inline-block;
+    width: 30%;
+    float: right;
+}
+
+.feed-1 .feed-text p {
+    font-size: 10px;
+}
+
+.feed-1 .feed-text h1 {
+    font-size: 30px;
+}
+
+.feed-1 .feed-text h3 {
+    font-size: 16px;
+}
+
+.feed-1 .feed-text a {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* Feed 2 */
+.right {
+    float: right;
+    background-color: indianred;
+    width: 39%;
+}
+
+.feed-2 {
+    margin-top: 2em;
+    display: inline-block;
+    width: 100%;
+    background-color: green;
+    float: right;
 }
