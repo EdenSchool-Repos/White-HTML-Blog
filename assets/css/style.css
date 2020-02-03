@@ -156,7 +156,7 @@ header h1 {
 }
 
 .left .pages-choice .pages-choice-letter a.active {
-    border: 3px solid #333333;
+    border: 2px solid #333333;
     color: #333333;
     font-weight: bolder;
 }
@@ -248,7 +248,61 @@ header h1 {
 
 /* Footer */
 footer {
-    float: left;
+    display: inline-block;
     background-color: #1C1C1C;
     width: 100%;
+    color: white;
+}
+
+footer .white-width {
+    width: 15%;
+    height: 100px;
+    float: left;
+    background-color: olive;
+}
+
+footer .white-width-right {
+    width: 15%;
+    height: 100px;
+    float: right;
+    background-color: orchid;
+}
+
+.featured-posts {
+    width: 23%;
+    float: left;
+}
+
+footer .featured-posts h2 {
+    display: inline-block;
+    color: #7B7B7B;
+    float: none;
+    width: 100%;
+}
+
+footer .featured-posts .featured-posts-image {
+    width: 30%;
+    float: left;
+    height: 90px;
+}
+
+footer .featured-posts .featured-posts-image img {
+    display: inline-block;
+    width: 100%;
+}
+
+footer .featured-posts .featured-posts-text {
+    width: 70%;
+    float: right;
+    height: 90px;
+}
+
+footer .featured-posts .featured-posts-text p {
+    font-weight: lighter;
+    width: 100%;
+    margin-left: 15px;
+}
+
+footer .featured-posts .featured-posts-text span {
+    font-weight: bold;
 }
