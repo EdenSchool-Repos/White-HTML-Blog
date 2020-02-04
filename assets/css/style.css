@@ -373,3 +373,42 @@ footer .contacts-us button {
     border: 1px solid #272A30;
     padding: 1em;
 }
+
+/* @MEDIA */
+
+
+@media (max-width: 1254px) {
+/* Feed 1 */
+.left {
+    float: none;
+    width: 80%;
+}
+
+.feed-1 .white-width {
+    width: 24%;
+    height: 10px;
+    float: left;
+}
+
+/* Feed 2 */
+.right {
+    float: none;
+    width: 100%;
+}
+
+.feed-2 .white-width {
+    width: 24%;
+    height: 10px;
+    float: left;
+}
+
+.feed-2 .anti-white-width {
+    width: 50%;
+    height: 121em;
+    float: left;
+}
+
+footer {
+    height: 31em;
+}
+  }
